@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayNow</title>
+
+    <link rel="icon" href="apple-touch-icon-4.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600&family=Mitr:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    
+
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js" integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+
+    <script src="https://kit.fontawesome.com/1a14b3e5ab.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    
+
+</head>
+
+<body>
+
+  <div class="splash">
+
+    <h1 class="fade-in"><span class="letter">p</span><span class="letter">a</span><span class="letter">y</span><span class="letter">n</span><span class="letter">o</span><span class="letter">w</span>
+    </h1>
+
+  </div>   
+
+
+
+  <section id="title"> 
+
+        <div class="container-fluid">
+
+            
+            <!-- Nav Bar -->
+
+
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+              
+
+                <a class="navbar-brand" href="#">paynow</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Solutions<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Supplier Finance</a></li>
+                              <li><a class="dropdown-item" href="#">Employee Finance</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Worker Finance</a></li>
+                            </ul>
+                          </li>
+
+                        
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Why paynow</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Financial Plug-ins</a></li>
+                          <li><a class="dropdown-item" href="#">Launch</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Pricing map</a></li>
+                        </ul>
+                      </li>
+                        
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About paynow</a>
+                      </li>
+                    </ul>
+                    
+                    <button class="download-button" type="button">Talk to an expert</button>
+                    <button class="download-button2" type="button">Start building</button>
+
+                </div>
+            </nav>
+
+            
+            <!-- Title -->
+
+            <div class="container section-1">
+              <div class="row mt-5"> 
+                <div class="col-lg-6">
+                  <h1> Effortless and Secure Payments </h1>
+                  <p class="first-paragraph">Committed to revolutionizing the way you pay. No more waiting in long lines, dealing with complicated payment systems, or worrying about the security of your transactions. Faster, easier, and more secure than ever before.
+                  </p>
+                  <button class="download-button3" type="button">Start building</button>
+                  <button class="download-button4" type="button">See use cases</button>
+                </div>
+                
+                <div class="col-lg-6 title-image-container">
+                  <img class="title-image" src="finance.gif" alt="">
+                </div>
+                
+              </div>
+
+            </div>
+        </div>
+
+  </section>
+
+  <!-- Features -->
+    
+  <section id="features">
+    <div class="container">
+      
+      <div class="row mt-5">
+        
+        <div class="col-lg-5">
+          <div class="image-container">
+            <img src="techny.gif" class="img-fluid" alt="Your Image">
+          </div>
+        </div>
+        
+        <div class="col-lg-7">
+          <h2>Make payments faster, easier, and more secure than ever before</h2>
+          <div class="accordion accordion-flush mt-4" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>   
+                  Revolutionising the way you pay
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  We are revolutionising the way you pay by offering innovative payment solutions that simplify the process and make it hassle-free. Our cutting-edge technology makes transactions lightning-fast, so you can complete your payment in seconds. No more waiting in line or filling out lengthy forms – with our payment options, you can pay your bills, transfer money, and make purchases with just a few clicks.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>   
+                  Advanced security features
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  We also understand the importance of security when it comes to online payments. That's why we have implemented robust security measures to protect your personal and financial information. Our payment systems use the latest encryption technology to ensure that your data is safe and secure at all times.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>   
+                  Prioritizing speed            
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  In today's fast-paced world, convenience is everything. Whether you're buying groceries or paying your bills, you want to do it quickly and securely. At our financial website, we understand the need for easy, fast, and secure payment options.
+                </div>
+              </div>
+            </div>
+            
+
+            <!-- add more accordion items here -->
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>  
+
+
+  <!--
+    <div class="container-fluid">
+
+      <div class="row row2">
+  
+      
+        <div class="col-lg-6 features-image-container">
+        
+          <img class="second-image" src="techny.gif" alt="Rocket">
+        
+        </div>
+  
+       <div class="col-lg-6 h2-container">  
+           <h2 class="second-heading">Make payments faster, easier, and more secure than ever before</h2>
+  
+           <div class="accordion accordion-flush accordion-container" id="accordionExample">
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>
+                  
+                
+                   Revolutionising the way you pay
+                </button>
+              </h3>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  We are revolutionising the way you pay by offering innovative payment solutions that simplify the process and make it hassle-free. Our cutting-edge technology makes transactions lightning-fast, so you can complete your payment in seconds. No more waiting in line or filling out lengthy forms – with our payment options, you can pay your bills, transfer money, and make purchases with just a few clicks.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>   
+                  
+                  Advanced security features
+                </button>
+              </h3>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  We also understand the importance of security when it comes to online payments. That's why we have implemented robust security measures to protect your personal and financial information. Our payment systems use the latest encryption technology to ensure that your data is safe and secure at all times.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                   <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>
+                  
+                  Prioritizing speed            
+                </button>
+              </h3>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  In today's fast-paced world, convenience is everything. Whether you're buying groceries or paying your bills, you want to do it quickly and securely. At our financial website, we understand the need for easy, fast, and secure payment options.
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+  
+      </div>
+    </div>
+-->
+
+<section id="payments"> 
+  <div class="container section-payments">
+    <div class="row mt-5"> 
+      <div class="col-lg-6">
+        <h3>Pay in seconds</h3>
+        <p class="payments-text"><b>Join us today </b>and experience the convenience of our revolutionary payment solutions. Say goodbye to long lines and complicated payment processes – and say hello to hassle-free transactions.</p>
+        <button class="download-button-6" type="button">Talk to an expert</button>
+      </div>
+      <div class="col-lg-6 title-image-container">
+        <img class="dollar-sign" src="dollar-sign.gif" alt="dollar-sign">
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!--
+  <section id="payments">
+
+    <div class="container-fluid3">
+   
+      <div class="row row-3">
+
+        <div class="col-lg-6 h3-container">
+          <h3>
+          Pay in seconds
+          </h3>
+          <p class="payments-text">
+          <b>Join us today </b>and experience the convenience of our revolutionary payment solutions. Say goodbye to long lines and complicated payment processes – and say hello to hassle-free transactions.
+          </p>
+          <button class="download-button-6" type="button">Talk to an expert</button>
+
+        </div>
+
+        
+
+        <div class="col-lg-6 payments-image-container">
+          <img class="dollar-sign" src="dollar-sign.gif" alt="dollar-sign">
+        </div>
+
+      </div>
+    </div>
+  </section>
+    
+-->
+  
+<section id="testimonials">
+  <div class="container testimonials-container">
+    <p class="testimonials-paragraph">
+      "At paynow you can complete your transactions in seconds,  
+      our fast payment options make it easy for you 
+      to get things done quickly and efficiently."
+    </p>
+    <button class="download-button-8" type="button">Start building</button>
+  </div>
+
+</section>
+
+<!--
+<section id="testimonials">
+
+    <div class="row row-4">
+
+      <div class="col-lg-6 h4-container">
+
+        <p class="text-h4">
+          "At paynow you can complete your transactions in seconds,  
+          our fast payment options make it easy for you 
+          to get things done quickly and efficiently."
+        </p>
+
+        <button class="download-button3" type="button">Learn more</button>
+
+      </div>
+
+    </div>
+
+  </section> 
+
+-->
+
+<section id="cards" class="cards-paragraph">
+  <div class="container container-fluid cards-container">
+    <div class="row row-cards">
+
+
+      <div class="col-md-6">
+        <h2>Our <b>financial solutions</b> that give you superpowers and save you money</h2>
+        <div class="accordion accordion-flush mt-4" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>   
+                Lower fees and higher interest rates 
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                We offer lower fees and higher interest rates on our financial products. Enjoy more savings and better returns with our competitive rates and fees.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>   
+                Invest in a variety of assets
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Diversify your investment portfolio with a wide range of assets. Invest in stocks, bonds, real estate, and more to maximize your returns and reduce your risks. With our investment options, you have the flexibility to choose the assets that align with your investment goals and preferences.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>   
+                Track your spending           
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Take control of your finances by tracking your spending. Our user-friendly tools allow you to monitor your expenses and identify areas where you can save money. With real-time updates and easy-to-use interfaces, you can stay on top of your spending and make informed financial decisions.
+              </div>
+            </div>
+          </div>
+        </div>
+          
+          
+
+      </div>
+
+
+      <div class="col-md-6">
+
+    
+        <div class="row row-cols-1 row-cols-md-2 g-4 h-100 p-3 cards-row">
+          <div class="col">
+            <div class="card">
+              <img class="card-item card-img-top" src="easy-payment.png" alt="easy-payment">
+              <div class="card-body">
+                <h5 class="card-title">Prioritizing Speed</h5>
+                <p class="card-text">Pay faster everywhere you go.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-item card-img-top" src="safe.png" alt="safe">
+              <div class="card-body">
+                <h5 class="card-title">Security</h5>
+                <p class="card-text">High-end security system to protect your data.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-item card-img-top" src="bank-card.png" alt="card">
+              <div class="card-body">
+                <h5 class="card-title">Physical Cards</h5>
+                <p class="card-text">Physical cards are available at your dispolsal for more comfort.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-item card-img-top" src="discount-payment.png" alt="discount-payment">
+              <div class="card-body">
+                <h5 class="card-title">Save Money</h5>
+                <p class="card-text">Make transactions withouth having to pay fees for them.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  
+  </div> 
+
+</section>
+
+<!--
+  <section id="cards">
+   
+  <div class="row">
+
+    <div class="row row-6">
+
+      <h2 class="cards-title"> 
+        Our <b>financial solutions</b> that give you superpowers and save you money
+      </h2>
+
+      <!-- 
+        <div class="accordion accordion-flush accordion-row" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <span class="plus-minus-icon"></span>
+                Lower fees and higher interest rates 
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"> Lower fees than traditional brick-and-mortar banks. </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>
+                Invest in a variety of assets
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Including stocks, bonds, and ETFs, without the need for a traditional financial advisor.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <span class="plus-minus-icon"><i class="fas fa-plus"></i></span>
+                Track your spending
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"> Financial service that can save you money. identify areas where you can cut back, such as subscriptions or unnecessary purchases. By doing so, you can save money and redirect those funds towards your financial goals, such as paying off debt or saving for a down payment on a home.</div>
+            </div>
+          </div>
+        </div> 
+
+        
+
+        
+
+
+    </div>
+
+    <div class="row row-5">
+
+      <div class="row row-cols-1 row-cols-md-2 g-4 h-100 p-3 cards-row">
+        <div class="col">
+          <div class="card">
+            <img class="card-item card-img-top" src="easy-payment.png" alt="easy-payment">
+            <div class="card-body">
+              <h5 class="card-title">Prioritizing Speed</h5>
+              <p class="card-text">Pay faster everywhere you go.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-item card-img-top" src="safe.png" alt="safe">
+            <div class="card-body">
+              <h5 class="card-title">Security</h5>
+              <p class="card-text">High-end security system to protect your data.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-item card-img-top" src="bank-card.png" alt="card">
+            <div class="card-body">
+              <h5 class="card-title">Physical Cards</h5>
+              <p class="card-text">Physical cards are available at your dispolsal for more comfort.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-item card-img-top" src="discount-payment.png" alt="discount-payment">
+            <div class="card-body">
+              <h5 class="card-title">Save Money</h5>
+              <p class="card-text">Make transactions withouth having to pay fees for them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div> 
+
+  </section>
+-->
+
+  <section id="different-features" class="df-paragraph">
+    <div class="container-fluid custom-width-1">
+      <h2>Cards</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="mobile-card.png" class="responsive-img">
+            </div>
+            <div class="col-md-8 responsive-para">
+              <h6 class="responsive-heading">Virtual Cards</h6>
+              <p>Virtual cards offer advanced security features and can be easily managed using our mobile app.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mx-auto">
+          <div class="row">
+          <div class="col-md-4">
+            <img src="bank-card.png" class="responsive-img">
+          </div>
+          <div class="col-md-8 responsive-para">
+            <h6 class="responsive-heading">Physical Cards</h6>
+            <p>Traditional payment card that you can use to make purchases at physical locations.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="different-features">
+    <div class="container-fluid custom-width-1">
+      <h2>IBANs</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="row">
+          <div class="col-md-4">
+            <img src="data-manager.png" class="responsive-img">
+          </div>
+          <div class="col-md-8 responsive-para">
+            <h6 class="responsive-heading">Instantly generate IBAN's</h6>
+            <p>Generate valid IBANs that are recognized by financial institutions around the world.</p>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6 mx-auto">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="discount-payment.png" class="responsive-img">
+            </div>
+            <div class="col-md-8 responsive-para">
+              <h6 class="responsive-heading">Credit Transfers</h6>
+              <p>Quickly and easily transfer funds. Secure and convenient payment method and faster processing times.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="different-features">
+    <div class="container-fluid custom-width-1">
+      <h2>Data and Reporting</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="pay-safe.png" class="responsive-img">
+            </div>
+            <div class="col-md-8 responsive-para">
+              <h6 class="responsive-heading">Interactive Data Manager</h6>
+              <p>Our interactive data manager is a powerful tool that allows you to easily organize and analyze your data.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mx-auto">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="graph-2.png" class="responsive-img">
+            </div>
+            <div class="col-md-8 responsive-para">
+              <h6 class="responsive-heading">Transaction reporting</h6>
+              <p>Ensuring transparency and accountability in our financial transactions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+
+  
+
+
+  <section id="testimonials-1">
+
+    <div id="carousel" class="carousel carousel-dark slide" data>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h6 class="first-heading">"In our search for a reliable partner, Paynow stood out with their vision for future product possibilities beyond just card issuance."</h6>
+          <img class="dog-img" src="man.png" alt="First slide">
+          <em class="dog-img">James Smith</em>
+        </div>
+
+        <div class="carousel-item">
+          <h6 class="first-heading">"If you are a young company seeking a prompt product launch, there is no superior alternative."</h6>
+          <img class="dog-img" src="girl.png" alt="Second slide">
+          <em class="dog-img">Jessica Jones</em>
+        </div>
+
+        <div class="carousel-item">
+          <h6 class="first-heading">"Paynow provided me with an affordable solution to launch my business securely and safely."</h6>
+          <img class="dog-img" src="man-2.png" alt="Third slide">
+          <em class="dog-img">Sebastian Brown</em>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+     
+
+    </div>
+
+
+
+
+
+
+
+  </section>
+
+<!-- 
+  <section id="boxes">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-6">
+
+          <div class="card border-secondary mb-3" style="max-width: 18rem;">
+            
+            <div class="card-body text-secondary">
+              <h5 class="card-title">Ready to take the next step?</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+          <div class="card border-secondary mb-3" style="max-width: 18rem;">
+            
+            <div class="card-body text-secondary">
+              <h5 class="card-title">Read the latest on embedded finance</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card border-secondary mb-3" style="max-width: 18rem;">
+            
+            <div class="card-body text-secondary">
+              <h5 class="card-title">Start building in our sandbox</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+          <div class="card border-secondary mb-3" style="max-width: 18rem;">
+            
+            <div class="card-body text-secondary">
+              <h5 class="card-title">Get to know what embedded finance can do for you</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>  
+
+
+
+
+
+
+        <h1>Left Box</h1>
+        <div class="card text-dark bg-light col-md-4">         
+          <div class="box box-left">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card text-dark bg-light  box box-right">
+                <h2>Right Box 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+              </div>
+              <div class="card text-dark bg-light box box-right">
+                <h2>Right Box 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+-->
+
+  
+
+<section id="boxes">
+  <div class="container custom-width-2">
+    <div class="row row-boxes">
+      <div class="col col-lg-5 boxes-col-1">
+        <h4 class="box-title">Ready to take the next step?</h4>
+      </div>
+      <div class="col col-lg-5 boxes-col">
+        <img class="box-img-1" src="credit-card.png" alt="">
+       <h4 class="box-text-1">Use our services everywhere with our cards</h4> 
+       <a href="">Get your card</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container custom-width-2">
+    <div class="row row-boxes">
+      <div class="col col-lg-5 boxes-col">
+        <img class="box-img-2" src="card-terminal.png" alt="">
+        <h4 class="box-text-2">Make your first transaction now</h4> 
+        <a href="">Download our app</a>
+      </div>
+      <div class="col col-lg-5 boxes-col">
+        <img class="box-img" src="brick-wall.png" alt="">
+        <h4 class="box-text">Start building your financial future with us</h4> 
+        <a href="">Subsribe now</a>
+      </div>
+    </div>
+  </div>  
+</section>
+
+
+  <footer class="text-light py-4 footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5 class="footer-paragraph">About Us</h5>
+          <p class="footer-paragraph">Committed to revolutionizing the way you pay. No more waiting in long lines, dealing with complicated payment systems, or worrying about the security of your transactions.</p>
+        </div>
+        <div class="col-md-3">
+          <h5 class="list-unstyled">Links</h5>
+          <ul class="list-unstyled">
+            <li><a class="footer-a" href="#">Home</a></li>
+            <li><a class="footer-a" href="#">About</a></li>
+            <li><a class="footer-a" href="#">Services</a></li>
+            <li><a class="footer-a" href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="list-unstyled">Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a class="footer-a" href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            <li><a class="footer-a" href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a class="footer-a" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a class="footer-a" href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">Copyright &copy; 2023 
+          paynow. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+  
+ 
+
+
+
+
+
+        
+    
+   
+
+    <script src="index.js">
+     
+    </script>
+
+    
+</body>
+
+</html>

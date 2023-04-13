@@ -1,0 +1,3 @@
+- Avoid using percentage values for margin and padding
+- Use more display flex instead of using bootstrap columns (.col)
+- Set font-family globally (body or head, or titles h1,h2,h3 etc...)
